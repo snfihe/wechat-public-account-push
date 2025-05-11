@@ -7,6 +7,9 @@
  */
 const USER_CONFIG = {
 
+  // 请将以下代码按照图示粘贴到对应位置
+USE_PASSAGE: 'push-plus',
+
   // 使用微信测试号：公众号APP_ID
   APP_ID: '',
 
@@ -14,14 +17,14 @@ const USER_CONFIG = {
   APP_SECRET: '',
 
   PROVINCE: '广东',
-  CITY: '惠州',
+  CITY: '广州',
 
   USERS: [
     {
       // 想要发送的人的名字
       name: '宝贝',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: '3b2105c5b10a414295b8053828680aae',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
